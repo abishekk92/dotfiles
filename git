@@ -1,0 +1,10 @@
+[user]
+	name = abishekk92
+	email = bhat.abishek@gmail.com
+[color]
+	ui = auto
+[github]
+	user = abishekk92
+[http]
+[alias]
+	tree = log --graph --oneline --decorate --all
