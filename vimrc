@@ -53,6 +53,8 @@ set hlsearch
 
 set number
 
+set foldmethod=indent
+set foldnestmax=1
 
 filetype plugin indent on
 set smartindent
