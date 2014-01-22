@@ -35,6 +35,8 @@ Bundle 'vim-scripts/TwitVim'
 
 Bundle 'mileszs/ack.vim'
 
+Bundle 'jnwhiteh/vim-golang'
+
 if has('gui_running')
     syntax enable
     set background=dark
