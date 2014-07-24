@@ -35,14 +35,26 @@ Bundle 'vim-scripts/TwitVim'
 
 Bundle 'mileszs/ack.vim'
 
-Bundle 'jnwhiteh/vim-golang'
+Bundle 'mivok/vimtodo'
+
+Bundle 'derekwyatt/vim-scala'
+
+Bundle 'Townk/vim-autoclose'
+
+Bundle 'fatih/vim-go'
+
+Bundle 'SirVer/ultisnips'
+
+Bundle 'Valloric/YouCompleteMe'
+
+Bundle 'honza/vim-snippets' 
 
 if has('gui_running')
     syntax enable
     set background=dark
     colorscheme solarized
 else
-    colorschem desert
+    colorscheme desert
 endif
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
@@ -53,6 +65,7 @@ set hlsearch
 
 set number
 
+set backspace=2
 set foldmethod=indent
 set foldnestmax=1
 
@@ -61,3 +74,6 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+"" Ultisnips
+let g:UltiSnipsExpandTrigger="<c-j>"
