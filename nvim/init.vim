@@ -6,6 +6,8 @@ set background=dark
 
 colorscheme desert
 
+set nocompatible
+filetype plugin on
 syntax on
 
 set autoread           " Auto reload file on changes
@@ -57,10 +59,15 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'SirVer/ultisnips'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'vimwiki/vimwiki'
 
 "Plug 'dhruvasagar/vim-table-mode'
 
 call plug#end()
+
+"vimwiki config
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 
 "Set up ultisnips directory
 let g:UltiSnipsSnippetsDir = "~/.vim/bundle/ultisnips/UltiSnips"
