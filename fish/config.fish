@@ -1,9 +1,12 @@
 set PATH /usr/local/bin $PATH
+set PATH ~/.cargo/bin $PATH
 
 # Enable vi like motion in fish
 fish_vi_key_bindings
 
 alias vim="nvim"
+alias ls="lsd"
+alias hgrep="history | rg"
 
 begin
     set --local AUTOJUMP_PATH $HOME/.autojump/share/autojump/autojump.fish
