@@ -55,6 +55,8 @@ Plug 'junegunn/vim-easy-align'
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'SirVer/ultisnips'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 "Plug 'dhruvasagar/vim-table-mode'
 
