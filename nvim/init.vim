@@ -55,17 +55,40 @@ nmap <C-P> :FZF<CR>
 call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/vim-easy-align'
-Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'SirVer/ultisnips'
+Plug 'dhruvasagar/vim-table-mode'
+
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'michal-h21/vim-zettel'
 
-"Plug 'dhruvasagar/vim-table-mode'
+Plug 'easymotion/vim-easymotion'
+Plug 'jiangmiao/auto-pairs'
+
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
 
 call plug#end()
+
+"Easy Motion
+let g:EasyMotion_do_mapping = 0 " Disable default mappings
+
+" Move easily with `s{char}{label}`
+nmap s <Plug>(easymotion-overwin-f)
+
+" Turn on case-insensitive feature
+let g:EasyMotion_smartcase = 1
+
+" JK motions: Line motions
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
 
 "vimwiki config
 let g:vimwiki_list = [{'path': '~/vimwiki/',
@@ -104,3 +127,7 @@ imap <C-j> <Plug>(coc-snippets-expand-jump)
 
 " Use <leader>x for convert visual selected code to snippet
 xmap <leader>x  <Plug>(coc-convert-snippet)
+
+nnoremap <leader>v :vnew<CR>
+nnoremap <leader>bs :new<CR>
+
