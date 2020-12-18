@@ -61,6 +61,7 @@ Plug 'SirVer/ultisnips'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'vimwiki/vimwiki'
+Plug 'michal-h21/vim-zettel'
 
 "Plug 'dhruvasagar/vim-table-mode'
 
