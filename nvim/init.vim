@@ -74,6 +74,8 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 
+Plug 'vim-airline/vim-airline'
+
 call plug#end()
 
 "Easy Motion
