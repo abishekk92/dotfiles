@@ -72,6 +72,13 @@ let g:vimwiki_list = [{'path': '~/vimwiki/',
 "Set up ultisnips directory
 let g:UltiSnipsSnippetsDir = "~/.vim/bundle/ultisnips/UltiSnips"
 
+command! Diary VimwikiDiaryIndex
+augroup vimwikigroup
+    autocmd!
+    " automatically update links on read diary
+    autocmd BufRead,BufNewFile diary.wiki VimwikiDiaryGenerateLinks
+augroup end
+
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
 
