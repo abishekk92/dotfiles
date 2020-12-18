@@ -75,8 +75,12 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 
 Plug 'vim-airline/vim-airline'
+Plug 'jpalardy/vim-slime'
 
 call plug#end()
+
+"Slime target for repl debugging
+let g:slime_target = "tmux"
 
 "Easy Motion
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
