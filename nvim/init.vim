@@ -129,4 +129,4 @@ xmap <leader>x  <Plug>(coc-convert-snippet)
 
 nnoremap <leader>v :vnew<CR>
 nnoremap <leader>bs :new<CR>
-
+nnoremap <leader>ew <C-w>=
