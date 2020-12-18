@@ -48,6 +48,7 @@ endfunc
 " Toggle between normal and relative numbering.
 nnoremap <leader>r :call NumberToggle()<cr>
 
+nmap <C-P> :FZF<CR>
 
 " Setup plugins
 
