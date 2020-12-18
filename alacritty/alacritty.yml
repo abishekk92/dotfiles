@@ -39,6 +39,16 @@ scrolling:
   # scrollback is enabled (history > 0).
   multiplier: 3
 
+
+# Fonts
+#font:
+#    normal:
+#        family: "Hack"
+#    bold:
+#        family: "Hack"
+#    italic:
+#        family: "Hack"
+
 # Colors (Solarized Dark)
 
 colors:
