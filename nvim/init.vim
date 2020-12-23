@@ -12,7 +12,7 @@ syntax on
 
 set autoread           " Auto reload file on changes
 set hlsearch           " highlight all search results
-set ignorecase         " do case insensitive search 
+set ignorecase         " do case insensitive search
 set incsearch          " show incremental search results as you type
 set number             " display line number
 set noswapfile         " disable swap file
@@ -48,6 +48,9 @@ endfunc
 " Toggle between normal and relative numbering.
 nnoremap <leader>r :call NumberToggle()<cr>
 
+" Remove trailing whitespace
+nnoremap <leader>w :FixWhitespace<cr>
+
 nmap <C-P> :FZF<CR>
 
 " Setup plugins
@@ -76,6 +79,8 @@ Plug 'tpope/vim-repeat'
 
 Plug 'vim-airline/vim-airline'
 Plug 'jpalardy/vim-slime'
+Plug 'ap/vim-css-color'
+Plug 'bronson/vim-trailing-whitespace'
 
 call plug#end()
 
