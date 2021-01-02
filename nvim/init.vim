@@ -100,6 +100,8 @@ let g:EasyMotion_smartcase = 1
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
 
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-python']
+
 "vimwiki config
 let g:vimwiki_list = [{'path': '~/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
