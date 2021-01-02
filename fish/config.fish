@@ -1,5 +1,6 @@
 set PATH /usr/local/bin $PATH
 set PATH ~/.cargo/bin $PATH
+set -x LC_ALL en_GB.UTF-8
 
 # Enable vi like motion in fish
 fish_vi_key_bindings
