@@ -1,1 +1,1 @@
-brew install pyenv poetry
+brew install miniconda
