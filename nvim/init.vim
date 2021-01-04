@@ -86,6 +86,7 @@ call plug#end()
 
 "Slime target for repl debugging
 let g:slime_target = "tmux"
+let g:slime_default_config = {"socket_name": "default", "target_pane": "{last}"}
 
 "Easy Motion
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
