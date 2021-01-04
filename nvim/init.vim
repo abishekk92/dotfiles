@@ -92,7 +92,7 @@ let g:slime_default_config = {"socket_name": "default", "target_pane": "{last}"}
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 
 " Move easily with `s{char}{label}`
-nmap s <Plug>(easymotion-overwin-f)
+nmap s <Plug>(easymotion-overwin-f2)
 
 " Turn on case-insensitive feature
 let g:EasyMotion_smartcase = 1
