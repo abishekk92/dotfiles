@@ -60,6 +60,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/vim-easy-align'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 Plug 'dhruvasagar/vim-table-mode'
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -82,7 +83,12 @@ Plug 'jpalardy/vim-slime'
 Plug 'ap/vim-css-color'
 Plug 'bronson/vim-trailing-whitespace'
 
+Plug 'rust-lang/rust.vim'
+
 call plug#end()
+
+"Run format on save
+let g:rustfmt_autosave = 1
 
 "Slime target for repl debugging
 let g:slime_target = "tmux"
