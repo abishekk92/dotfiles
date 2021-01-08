@@ -62,7 +62,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'dhruvasagar/vim-table-mode'
-
+Plug 'lfilho/cosco.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'vimwiki/vimwiki'
@@ -86,6 +86,12 @@ Plug 'bronson/vim-trailing-whitespace'
 Plug 'rust-lang/rust.vim'
 
 call plug#end()
+
+"Comma or SemiColon
+nmap <silent> <Leader>; <Plug>(cosco-commaOrSemiColon)
+imap <silent> <Leader>; <Plug>(cosco-commaOrSemiColon)
+
+let g:cosco_filetype_whitelist = ['rust', 'javascript']
 
 "Run format on save
 let g:rustfmt_autosave = 1
