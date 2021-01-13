@@ -2,6 +2,9 @@ let mapleader=","
 
 syntax enable
 
+set nobackup
+set nowritebackup
+
 set background=dark
 
 colorscheme desert
@@ -152,6 +155,12 @@ imap <C-j> <Plug>(coc-snippets-expand-jump)
 
 " Use <leader>x for convert visual selected code to snippet
 xmap <leader>x  <Plug>(coc-convert-snippet)
+
+"Apply autofix on the current issue
+nmap <leader>qf <Plug>(coc-fix-current)
+
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
 
 nnoremap <leader>v :vnew<CR>
 nnoremap <leader>bs :new<CR>
