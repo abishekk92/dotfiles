@@ -15,3 +15,5 @@ set theme_complete_path "yes"
 
 abbr efish 'vim ~/.config/fish/config.fish'
 abbr rfish 'source ~/.config/fish/config.fish'
+abbr cb 'cargo build'
+abbr cr 'cargo run'
