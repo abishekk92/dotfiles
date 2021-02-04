@@ -52,7 +52,7 @@ endfunc
 nnoremap <leader>r :call NumberToggle()<cr>
 
 " Remove trailing whitespace
-nnoremap <leader>w :FixWhitespace<cr>
+nnoremap <leader>w :FixWhitespace<cr> :w <cr>
 
 nmap <C-P> :FZF<CR>
 
