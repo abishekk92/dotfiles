@@ -15,6 +15,7 @@ alias hgrep="history | rg"
 set theme_complete_path "yes"
 
 abbr efish 'vim ~/.config/fish/config.fish'
+abbr evim 'vim ~/.config/nvim/init.vim'
 abbr rfish 'source ~/.config/fish/config.fish'
 abbr cb 'cargo build'
 abbr cr 'cargo run'

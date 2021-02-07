@@ -70,7 +70,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'michal-h21/vim-zettel'
-
+Plug 'preservim/tagbar'
 Plug 'easymotion/vim-easymotion'
 
 Plug 'tpope/vim-surround'
@@ -163,6 +163,9 @@ nmap <leader>qf <Plug>(coc-fix-current)
 
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
+
+" Show tagbar
+nmap <leader>t :TagbarToggle<cr>
 
 nnoremap <leader>v :vnew<CR>
 nnoremap <leader>bs :new<CR>
