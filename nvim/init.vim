@@ -170,3 +170,5 @@ nmap <leader>t :TagbarToggle<cr>
 nnoremap <leader>v :vnew<CR>
 nnoremap <leader>bs :new<CR>
 nnoremap <leader>ew <C-w>=
+
+inoremap jj <esc>
