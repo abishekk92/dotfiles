@@ -49,7 +49,7 @@ function! NumberToggle()
 endfunc
 
 " Toggle between normal and relative numbering.
-nnoremap <leader>r :call NumberToggle()<cr>
+" nnoremap <leader>r :call NumberToggle()<cr>
 
 " Remove trailing whitespace
 nnoremap <leader>w :FixWhitespace<cr> :w <cr>
@@ -86,6 +86,7 @@ Plug 'ap/vim-css-color'
 Plug 'bronson/vim-trailing-whitespace'
 
 Plug 'rust-lang/rust.vim'
+Plug 'lilyinstarlight/vim-sonic-pi'
 
 call plug#end()
 
