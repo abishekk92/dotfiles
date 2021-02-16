@@ -172,4 +172,6 @@ nnoremap <leader>v :vnew<CR>
 nnoremap <leader>bs :new<CR>
 nnoremap <leader>ew <C-w>=
 
+nnoremap <leader>n :noh<CR>
+
 inoremap jj <esc>
