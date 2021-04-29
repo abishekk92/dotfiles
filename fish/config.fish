@@ -5,6 +5,7 @@ set -x LC_ALL en_GB.UTF-8
 # Enable vi like motion in fish
 fish_vi_key_bindings
 
+alias at='alacritty-themes'
 alias vim="nvim"
 alias ls="lsd"
 alias python="python3"
