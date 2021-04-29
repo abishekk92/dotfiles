@@ -7,7 +7,7 @@ set nowritebackup
 
 set background=dark
 
-colorscheme desert
+colorscheme gruvbox
 
 set nocompatible
 filetype plugin on
@@ -87,6 +87,8 @@ Plug 'bronson/vim-trailing-whitespace'
 
 Plug 'rust-lang/rust.vim'
 Plug 'lilyinstarlight/vim-sonic-pi'
+
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
