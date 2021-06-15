@@ -1,4 +1,4 @@
-Get PATH /usr/local/bin $PATH
+set PATH /usr/local/bin $PATH
 set PATH ~/.cargo/bin $PATH
 set -x LC_ALL en_GB.UTF-8
 
@@ -8,7 +8,7 @@ fish_vi_key_bindings
 mcfly init fish | source
 zoxide init fish | source
 
-alias at='alacritty-themes'
+alias att='alacritty-themes'
 alias vim="nvim"
 alias cat="bat"
 alias ls="lsd"
