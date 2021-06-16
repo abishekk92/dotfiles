@@ -48,12 +48,8 @@ function! NumberToggle()
   endif
 endfunc
 
-" Toggle between normal and relative numbering.
-" nnoremap <leader>r :call NumberToggle()<cr>
-
 " Remove trailing whitespace
-nnoremap <leader>w :FixWhitespace<cr> :w <cr>
-
+au BufWrite * FixWhitespace
 nmap <C-P> :FZF<CR>
 
 " Setup plugins
